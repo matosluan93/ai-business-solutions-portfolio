@@ -18,6 +18,7 @@ Minha proposta de valor é combinar conhecimento de processos corporativos, enge
 | [SkillMatch](agents/skillmatch/) | Agente | Triagem assistida de currículos | Matching, scoring conceitual, evidências | Prompt documentado |
 | [BenefProcess](applications/benefprocess/) | Aplicação | Processamento local de bases de benefícios | Python, Flask, dados, Excel e PowerPoint | Aplicação funcional em repositório próprio |
 | [NF-e — Automação](applications/nfe-automation/) | Aplicação | Prototipação de fluxo e DANFE para controle interno | Flask, SQLite, HTML/CSS/JavaScript | Protótipo funcional; sem emissão fiscal oficial |
+| [Stefanini Shopping](applications/stefanini-shopping/) | Aplicação | Experiência de e-commerce corporativo com catálogo multilíngue | Next.js, React, TypeScript, Tailwind CSS, i18n e UX | Front-end funcional local; código corporativo privado e integrações produtivas pendentes |
 
 ## Princípios do portfólio
 

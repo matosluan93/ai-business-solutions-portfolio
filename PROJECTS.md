@@ -10,3 +10,4 @@
 | SkillMatch | Agente | Prompt de avaliação individual contra uma vaga | Aplicação, fórmula validada e integração ATS |
 | BenefProcess | Aplicação | Código Python/Flask e processamento local | Uso de IA/LLM |
 | NF-e — Automação | Aplicação | Protótipo Flask/SQLite com interface web | SEFAZ, assinatura XML e emissão fiscal oficial |
+| Stefanini Shopping | Aplicação | Front-end responsivo, catálogo local com 33 produtos, variantes, carrinho, checkout demonstrativo e localização em três idiomas | Pagamento real, frete, Microsoft Entra ID, backend produtivo, estoque corporativo e integração TOTVS/NF-e |
