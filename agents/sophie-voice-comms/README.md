@@ -1,17 +1,7 @@
-# Sophie Voice Comms
+# Projeto reorganizado
 
-Agente baseado em prompt que transforma briefings em roteiros institucionais para narração por avatar.
+Este projeto está na seção **Prompts de IA**.
 
-## Capacidades presentes no prompt
+[Ir para a documentação atual](../../prompts/sophie-voice-comms/)
 
-- Adaptação por público, área, escopo, urgência, CTA e prazo.
-- Roteiros em português, inglês e espanhol.
-- Controle contra invenção e redução de metáforas tecnológicas em temas sensíveis.
-
-## Limitações e status
-
-O prompt não comprova síntese de voz, processamento de áudio, animação de avatar, integração com Teams ou geração de Adaptive Card JSON.
-
-**Status:** prompt documentado. Testes: **planejados — não executados**.
-
-Veja a [versão pública do prompt](prompt/public-version.md).
+[Aplicações](../../applications/) · [Prompts de IA](../../prompts/)

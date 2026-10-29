@@ -3,96 +3,57 @@
 # Soluções de IA e Automação
 ### Portfólio de Luan Felipe
 
-**Processos de negócio, dados e desenvolvimento aplicados a problemas corporativos.**
+**Do entendimento do processo à solução técnica.**
 
-Aplicações funcionais, protótipos web e projetos de agentes de IA, com documentação de escopo, tecnologias e decisões.
+Aplicações web, automação de dados e engenharia de prompts para problemas de negócio.
 
-[Perfil profissional](https://github.com/matosluan93) · [Competências](SKILLS.md) · [Mapa dos projetos](PROJECTS.md)
+[![Aplicações](https://img.shields.io/badge/01_APLICAÇÕES-0F766E?style=for-the-badge)](applications/)
+[![Prompts de IA](https://img.shields.io/badge/02_PROMPTS_DE_IA-1E293B?style=for-the-badge)](prompts/)
+
+[Perfil profissional](https://github.com/matosluan93) · [Competências](SKILLS.md) · [Status e evidências](PORTFOLIO_STATUS.md)
 
 </div>
 
 ---
 
-## Por onde começar
+## 01 · Aplicações
 
-| Se você busca avaliar… | Explore primeiro |
-| :--- | :--- |
-| **Python, automação e tratamento de dados** | [BenefProcess](applications/benefprocess/) |
-| **Front-end, experiência do usuário e TypeScript** | [Stefanini Shopping](applications/stefanini-shopping/) |
-| **Backend web e persistência local** | [NF-e — Automação](applications/nfe-automation/) |
-| **Engenharia de prompts e IA aplicada ao negócio** | [Projetos de agentes](#agentes-de-ia) |
+Projetos com código, interface e execução local. As páginas de cada aplicação reúnem o problema, as funcionalidades, as tecnologias e as capturas de tela.
 
-## Aplicações em destaque
-
-### BenefProcess · Automação de dados
-
-**Problema:** tratar bases de benefícios com regras de validação e organizar os arquivos de saída.
-
-**Solução:** aplicação web local com processamento de planilhas, deduplicação de registros, registro de exclusões e exportação em Excel, CSV, ZIP e PowerPoint.
-
-**O que demonstra:** Python aplicado a processos, tratamento de dados, regras operacionais e rastreabilidade.  
-**Stack:** Python · Flask · pandas · openpyxl · xlsxwriter · python-pptx  
-**Status:** aplicação funcional em repositório próprio.
-
-[Documentação do projeto](applications/benefprocess/) · [Código-fonte](https://github.com/matosluan93/benef-process)
-
----
-
-### Stefanini Shopping · E-commerce corporativo
-
-**Problema:** organizar catálogo, variantes e jornada de compra em uma experiência responsiva e multilíngue.
-
-**Solução:** front-end com 33 produtos, busca, filtros, seleção de cor e tamanho, carrinho e checkout demonstrativo, em português, inglês e espanhol.
-
-**O que demonstra:** análise de requisitos, UX, modelagem de catálogo, internacionalização e desenvolvimento de interfaces.  
-**Stack:** Next.js · React · TypeScript · Tailwind CSS  
-**Status:** front-end funcional local; integrações produtivas pendentes. O estudo público é sanitizado e o código corporativo permanece privado.
-
-[Explorar o estudo de caso](applications/stefanini-shopping/)
-
----
-
-### NF-e — Automação · Protótipo web
-
-**Problema:** centralizar registros de notas e produtos para consulta e controle interno.
-
-**Solução:** aplicação local com cadastro, consulta, numeração interna, persistência em SQLite e visualização para impressão inspirada em DANFE.
-
-**O que demonstra:** construção de fluxos web, backend em Flask e persistência de dados.  
-**Stack:** Python · Flask · SQLite · HTML · CSS · JavaScript  
-**Status:** protótipo funcional local, sem emissão fiscal oficial ou integração produtiva com a SEFAZ.
-
-[Documentação e limites do protótipo](applications/nfe-automation/) · [Código-fonte](https://github.com/matosluan93/nfe_system_v6)
-
-## Agentes de IA
-
-Estudos de engenharia de prompts para contextos corporativos. Os materiais públicos permitem avaliar instruções, regras, critérios e limites de operação; o estágio de cada projeto está indicado abaixo.
-
-| Projeto | Problema abordado | Competências demonstradas | Material disponível |
+| Projeto | O que você encontra | Tecnologias principais | Explore |
 | :--- | :--- | :--- | :--- |
-| [Gestor Acolhe](agents/gestor-acolhe/) | Apoio responsável à liderança | Engenharia de prompts, governança e revisão humana | Prompt documentado |
-| [Sophie Voice Comms](agents/sophie-voice-comms/) | Roteiros institucionais para avatar | Comunicação, localização e controle contra invenção | Prompt documentado |
-| [SmartComms](agents/smartcomms/) | Comunicação corporativa em inglês | UX writing, validação e adaptação por canal | Prompt documentado |
-| [SpeakAI](agents/speakai/) | Aprendizagem profissional de idiomas | Roteamento, personalização e avaliação conceitual | Prompt documentado |
-| [LexAnalyzer](agents/lexanalyzer/) | Estruturação preliminar de informações para R&S | Regras, explicabilidade e revisão humana | Versão pública sanitizada; prompt original restrito |
-| [SkillMatch](agents/skillmatch/) | Triagem assistida de currículos | Matching, critérios de avaliação e evidências | Prompt documentado |
+| **TalentHub v2** | Plataforma de recrutamento com vagas, candidatos, três perfis de acesso, indicadores e recuperação de contexto | Python · Flask · SQLAlchemy · SQLite · MSAL | [Estudo e demonstração](applications/talenthub/) |
+| **BenefProcess** | Tratamento e validação de bases de benefícios, auditoria e exportação de arquivos | Python · Flask · pandas · openpyxl | [Estudo e telas](applications/benefprocess/) |
+| **SpeakAI** | Interface de aprendizagem de oito idiomas, trilha executiva, gramática e gamificação | JavaScript · HTML · CSS · API Node.js | [Estudo e telas](applications/speakai/) |
+| **Stefanini Shopping** | Front-end de e-commerce com catálogo, variantes, carrinho e interface em três idiomas | Next.js · React · TypeScript · Tailwind CSS | [Estudo e telas](applications/stefanini-shopping/) |
+| **NF-e — Automação** | Protótipo local de cadastro, consulta, painel e pré-visualização de documentos | Python · Flask · SQLite · JavaScript | [Estudo e telas](applications/nfe-automation/) |
 
-## Como trabalho
+**Para avaliação técnica:** comece pelo TalentHub para backend e permissões, pelo BenefProcess para automação de dados e pelo e-commerce para front-end. Os links para código indicam quando o repositório é privado.
 
-- **Entendimento do contexto:** tradução de necessidades corporativas em requisitos e regras operacionais.
-- **Execução técnica:** desenvolvimento de aplicações, organização de dados e estruturação de prompts.
-- **Clareza na entrega:** documentação de funcionalidades, evidências, limitações e próximos passos.
-- **Uso responsável de dados e IA:** exemplos públicos sintéticos, proteção de informações e revisão humana em cenários sensíveis.
+## 02 · Prompts de IA
 
-## Documentação para avaliação
+Projetos de engenharia de prompts com instruções, regras, formato de resposta e limites de operação. Cada página identifica o material público disponível e o estágio do trabalho.
 
-| Documento | O que você encontra |
+| Projeto | Contexto de uso | Competência demonstrada |
+| :--- | :--- | :--- |
+| [Gestor Acolhe](prompts/gestor-acolhe/) | Apoio à liderança | Estruturação de instruções e governança |
+| [Sophie Voice Comms](prompts/sophie-voice-comms/) | Roteiros institucionais para avatar | Localização e controle de informações |
+| [SmartComms](prompts/smartcomms/) | Comunicação corporativa em inglês | Adaptação por canal e validação |
+| [SpeakAI — prompt](prompts/speakai/) | Tutor conversacional de idiomas | Personalização e organização de jornadas |
+| [LexAnalyzer](prompts/lexanalyzer/) | Organização preliminar de informações para R&S | Regras e explicabilidade; versão pública sanitizada |
+| [SkillMatch](prompts/skillmatch/) | Análise assistida de currículos | Critérios de comparação e evidências |
+
+## Competências em contexto
+
+| Frente | Evidências no portfólio |
 | :--- | :--- |
-| [Competências](SKILLS.md) | Habilidades técnicas relacionadas aos projetos |
-| [Mapa dos projetos](PROJECTS.md) | Visão complementar do portfólio |
-| [Status das entregas](PORTFOLIO_STATUS.md) | Estágios de implementação e disponibilidade |
-| [Privacidade](PRIVACY.md) | Cuidados com dados e materiais publicados |
+| **Automação e dados** | Planilhas, validação, deduplicação, rastreabilidade e relatórios |
+| **Aplicações web** | CRUD, persistência, autenticação, permissões e interfaces responsivas |
+| **IA aplicada** | Engenharia de prompts, recuperação de contexto, fontes e adaptação de respostas |
+| **Análise de negócios** | Requisitos, regras operacionais, escopo e documentação das entregas |
+
+## Documentação
+
+[Mapa de projetos](PROJECTS.md) · [Competências](SKILLS.md) · [Status das entregas](PORTFOLIO_STATUS.md) · [Privacidade](PRIVACY.md) · [Estrutura do portfólio](docs/portfolio-architecture.md)
 
 **Interesse profissional:** Analista de IA Júnior · IA Generativa · Automação com IA · AI Business Analysis.
-
-[Voltar ao perfil de Luan Felipe](https://github.com/matosluan93)

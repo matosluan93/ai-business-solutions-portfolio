@@ -1,15 +1,20 @@
-# Status do portfólio
+# Status e evidências
 
-Atualizado em 20 de julho de 2026.
+Atualizado em **29 de outubro de 2026**.
 
-| Item | Situação |
-|---|---|
-| Inventário de nove projetos | Concluído |
-| Sanitização dos prompts públicos | Concluída na versão local |
-| Casos sintéticos de avaliação | Planejados — não executados |
-| Validação técnica das aplicações | Parcial |
-| Revisão de propriedade intelectual | Necessária para conteúdo corporativo detalhado |
-| Estudo de caso sanitizado da Stefanini Shopping | Publicado sem código ou material corporativo interno |
-| Publicação do repositório central | Concluída |
+## Organização
 
-Nenhum resultado de teste é declarado sem execução observável.
+| Área | Conteúdo |
+| :--- | :--- |
+| [Aplicações](applications/) | Cinco projetos com páginas técnicas e demonstrações visuais |
+| [Prompts de IA](prompts/) | Seis projetos de engenharia de prompts |
+| Links anteriores | Atalhos preservados em `agents/` |
+
+## Validação observada
+
+- **TalentHub v2:** 11 testes automatizados passaram em execução local com Python 3.12, em 29/10/2026. A suíte usa dados de exemplo e banco SQLite em memória.
+- **SpeakAI:** build local concluído e interface conferida no navegador; provedor de IA não validado nesta sessão.
+- **BenefProcess, NF-e e Stefanini Shopping:** capturas reais de execução local publicadas nas páginas dos projetos.
+- **Prompts:** versões públicas documentadas; avaliações sistemáticas de eficácia não executadas nesta atualização.
+
+Os repositórios privados mantêm essa visibilidade. O portfólio público apresenta estudos técnicos e demonstrações com dados de exemplo.

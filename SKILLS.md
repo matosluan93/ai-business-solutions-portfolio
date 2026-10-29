@@ -1,14 +1,15 @@
-# Competências demonstradas
+# Competências e evidências
 
-- Engenharia de prompts e definição de hierarquia de instruções.
-- Tradução de necessidades corporativas em regras operacionais.
-- Saídas estruturadas, validação e explicabilidade.
-- Responsible AI, privacidade, minimização de dados e revisão humana.
-- Python, Flask, pandas, openpyxl, xlsxwriter e python-pptx, conforme os projetos de aplicação.
-- HTML, CSS, JavaScript e SQLite em protótipos web locais.
-- TypeScript, React, Next.js e Tailwind CSS em interface de e-commerce responsiva.
-- Internacionalização, localização monetária, catálogo de produtos, variantes e experiência de compra.
-- Git e GitHub para controle de versão, publicação privada e documentação pública sanitizada.
-- Documentação técnica, análise de limitações e desenho de testes.
+| Competência | Onde avaliar |
+| :--- | :--- |
+| Python, Flask, API REST e SQLAlchemy | [TalentHub](applications/talenthub/) |
+| Perfis de acesso, sessões, CSRF e integração preparada com MSAL | [TalentHub](applications/talenthub/) |
+| Recuperação de contexto, índice local e fontes | [TalentHub](applications/talenthub/) |
+| pandas, openpyxl, xlsxwriter e python-pptx | [BenefProcess](applications/benefprocess/) |
+| JavaScript, HTML, CSS e estado no navegador | [SpeakAI](applications/speakai/) |
+| TypeScript, React, Next.js, Tailwind CSS e internacionalização | [Stefanini Shopping](applications/stefanini-shopping/) |
+| Flask, SQLite e fluxos de cadastro e consulta | [NF-e — Automação](applications/nfe-automation/) |
+| Engenharia de prompts, saídas estruturadas e adaptação ao contexto | [Biblioteca de prompts](prompts/) |
+| Requisitos, regras de negócio, documentação e limites de escopo | [Mapa de projetos](PROJECTS.md) |
 
-As competências acima descrevem evidências encontradas nos prompts, na documentação e nos repositórios analisados. Não representam senioridade ou certificações não comprovadas.
+As competências estão relacionadas às evidências disponíveis. Integrações preparadas e demonstrações locais têm seus limites descritos nos estudos de cada projeto.

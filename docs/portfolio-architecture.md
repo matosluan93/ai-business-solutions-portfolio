@@ -1,13 +1,17 @@
-# Arquitetura do portfólio
+# Estrutura do portfólio
 
-O repositório central funciona como camada de apresentação. Aplicações com repositório próprio preservam seu histórico e recebem aqui apenas uma página técnica e um link.
+O repositório central apresenta o trabalho em duas áreas. O código das aplicações permanece nos repositórios próprios, preservando o histórico.
 
-```mermaid
-flowchart TD
-    P[Portfólio central] --> A[Agentes baseados em prompt]
-    P --> B[Aplicações em repositórios próprios]
-    A --> D[Documentação pública sanitizada]
-    A --> E[Exemplos e testes sintéticos]
-    B --> F[Resumo técnico e limitações]
-    B --> G[Link para código original]
+```text
+applications/       estudos técnicos e demonstrações de aplicações
+  talenthub/        recrutamento, perfis de acesso e recuperação de contexto
+  benefprocess/     automação de bases de benefícios
+  speakai/          aprendizagem de idiomas
+  stefanini-shopping/  front-end de e-commerce
+  nfe-automation/   protótipo de controle interno
+prompts/            biblioteca de projetos de engenharia de prompts
+docs/               documentação transversal
+agents/             atalhos para links da organização anterior
 ```
+
+Uma aplicação e seu prompt podem ter páginas distintas quando representam entregas diferentes, como no SpeakAI. Cada página informa o estágio, as evidências disponíveis e a visibilidade do código.
