@@ -4,6 +4,18 @@ Estudo de caso sanitizado de uma aplicação de e-commerce corporativo voltada �
 
 > O código-fonte e os ativos corporativos permanecem em repositório privado. Esta página documenta somente competências e funcionalidades não confidenciais e não representa um produto oficialmente lançado.
 
+## Demonstração visual
+
+Capturas reais do front-end em execução local, em 29/10/2026, com catálogo local e sem credenciais de produção. Os textos comerciais, preços, indicadores e fluxos exibidos fazem parte do protótipo visual; não representam uma operação comercial homologada. O código-fonte permanece privado.
+
+### Página inicial
+
+![Página inicial do protótipo Stefanini Shopping](01-pagina-inicial.jpg)
+
+### Catálogo
+
+![Catálogo de produtos com busca e filtros](02-catalogo.jpg)
+
 ## Problema abordado
 
 Estruturar uma experiência de compra mais profissional, responsiva e coerente com uma marca global, organizando catálogo, imagens, variações e jornada de compra sem impedir a execução local durante o desenvolvimento.
@@ -54,3 +66,4 @@ Este estudo não publica código, fotografias internas, dados de colaboradores, 
 ## Status
 
 Front-end funcional para execução e demonstração local. Verificação estática de TypeScript concluída; integrações produtivas pendentes.
+
