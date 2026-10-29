@@ -4,7 +4,7 @@ Protótipo de aplicação web para organizar vagas, candidatos e indicadores em 
 
 **Tecnologias:** Python · Flask · Flask-SQLAlchemy · SQLite · MSAL · HTML · CSS · JavaScript.
 
-[Código completo — repositório privado](https://github.com/matosluan93/rhselect)
+[Código completo — repositório privado](https://github.com/matosluan93/talenthub)
 
 ## Problema e solução
 
