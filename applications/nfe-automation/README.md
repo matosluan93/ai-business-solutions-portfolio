@@ -2,6 +2,18 @@
 
 Protótipo web local para organizar dados de notas e apresentar uma interface inspirada em DANFE para controle interno.
 
+## Demonstração visual
+
+Capturas reais do protótipo em execução local, em 29/10/2026, com banco novo e vazio. O ambiente utiliza uma empresa de demonstração e não está conectado ao Bling ou à SEFAZ. As telas não comprovam emissão fiscal oficial.
+
+### Cadastro e pré-visualização
+
+![Formulário de nota e área de pré-visualização do protótipo NF-e](01-formulario.jpg)
+
+### Painel de acompanhamento
+
+![Dashboard do protótipo NF-e com base de demonstração vazia](02-dashboard.jpg)
+
 ## Funcionalidades confirmadas na versão local inventariada
 
 - Backend Flask.
@@ -19,3 +31,4 @@ Não há comprovação de integração produtiva com SEFAZ, certificado digital,
 Protótipo funcional para uso e demonstração local, não emissor fiscal de produção.
 
 Código: [matosluan93/nfe_system_v6](https://github.com/matosluan93/nfe_system_v6)
+
