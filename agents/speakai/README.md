@@ -2,6 +2,22 @@
 
 Protótipo de tutor conversacional para aprendizagem profissional de idiomas.
 
+## Demonstração visual da aplicação local
+
+Além do prompt documentado nesta pasta, esta galeria apresenta uma implementação local do SpeakAI, executada em 29/10/2026. As imagens mostram interfaces reais de seleção de idiomas, jornada de aprendizagem e gramática. O código desta aplicação ainda não foi publicado nesta pasta, e a integração de conversação com IA não foi validada nesta sessão.
+
+### Idiomas
+
+![Página de seleção de idiomas do SpeakAI](01-idiomas.jpg)
+
+### Jornada de inglês
+
+![Jornada de aprendizagem de inglês do SpeakAI](02-jornada-ingles.jpg)
+
+### Gramática
+
+![Módulo de gramática com lições e níveis](03-gramatica.jpg)
+
 ## Capacidades presentes no prompt
 
 - Modos de aula, prática, conversação, avaliação, revisão e plano de estudos.
@@ -16,3 +32,4 @@ Não há comprovação de áudio, avaliação acústica, memória persistente, c
 **Status:** prompt documentado. Testes: **planejados — não executados**.
 
 Veja a [versão pública do prompt](prompt/public-version.md).
+
