@@ -4,7 +4,7 @@ Protótipo de tutor conversacional para aprendizagem profissional de idiomas.
 
 ## Demonstração visual da aplicação local
 
-Além do prompt documentado nesta pasta, esta galeria apresenta uma implementação local do SpeakAI, executada em 29/10/2026. As imagens mostram interfaces reais de seleção de idiomas, jornada de aprendizagem e gramática. O código desta aplicação ainda não foi publicado nesta pasta, e a integração de conversação com IA não foi validada nesta sessão.
+Além do prompt documentado nesta pasta, esta galeria apresenta uma implementação local do SpeakAI, executada em 29/10/2026. As imagens mostram interfaces reais de seleção de idiomas, jornada de aprendizagem e gramática. O código completo está no repositório privado [speakai-projeto](https://github.com/matosluan93/speakai-projeto). A integração de conversação com IA não foi validada nesta sessão.
 
 ### Idiomas
 
