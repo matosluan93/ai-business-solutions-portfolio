@@ -16,19 +16,36 @@ Aplicações web, automação de dados e engenharia de prompts para problemas de
 
 ---
 
-## 01 · Aplicações
+## 01 · Aplicações — projetos principais
 
-Projetos com código, interface e execução local. As páginas de cada aplicação reúnem o problema, as funcionalidades, as tecnologias e as capturas de tela.
+### 1. Edital Profiler v3 · Editais e organização documental
 
-| Projeto | O que você encontra | Tecnologias principais | Explore |
-| :--- | :--- | :--- | :--- |
-| **TalentHub v2** | Plataforma de recrutamento com vagas, candidatos, três perfis de acesso, indicadores e recuperação de contexto | Python · Flask · SQLAlchemy · SQLite · MSAL | [Estudo e demonstração](applications/talenthub/) |
-| **BenefProcess** | Tratamento e validação de bases de benefícios, auditoria e exportação de arquivos | Python · Flask · pandas · openpyxl | [Estudo e telas](applications/benefprocess/) |
-| **SpeakAI** | Interface de aprendizagem de oito idiomas, trilha executiva, gramática e gamificação | JavaScript · HTML · CSS · API Node.js | [Estudo e telas](applications/speakai/) |
-| **Stefanini Shopping** | Front-end de e-commerce com catálogo, variantes, carrinho e interface em três idiomas | Next.js · React · TypeScript · Tailwind CSS | [Estudo e telas](applications/stefanini-shopping/) |
-| **NF-e — Automação** | Protótipo local de cadastro, consulta, painel e pré-visualização de documentos | Python · Flask · SQLite · JavaScript | [Estudo e telas](applications/nfe-automation/) |
+Aplicação para estruturar perfis de um edital, recuperar informações de documentos e organizar o acompanhamento de profissionais e arquivos. Combina processamento de PDF/Word, busca local e geração de planilhas; as integrações corporativas têm seu estágio documentado.
 
-**Para avaliação técnica:** comece pelo TalentHub para backend e permissões, pelo BenefProcess para automação de dados e pelo e-commerce para front-end. Os links para código indicam quando o repositório é privado.
+**Python · Flask · SQLAlchemy · SQLite · NumPy · Playwright · Microsoft Graph**  
+[Conhecer o projeto e as telas](applications/edital-profiler/) · [Código privado](https://github.com/matosluan93/edital-profiler)
+
+### 2. TalentHub v2 · Recrutamento e gestão
+
+Plataforma com vagas, candidatos, pipeline, três perfis de acesso e indicadores de equipe. Inclui recuperação de contexto, fontes e **11 testes automatizados aprovados** em ambiente local.
+
+**Python · Flask · SQLAlchemy · SQLite · MSAL · NumPy**  
+[Conhecer o projeto e as telas](applications/talenthub/) · [Código privado](https://github.com/matosluan93/talenthub)
+
+### 3. SpeakAI · Aprendizagem de idiomas
+
+Aplicação web de estudo em oito idiomas, com jornada geral, trilha executiva, gramática e gamificação. Usa recursos de voz do navegador e mantém o progresso local; a conversa com IA depende da configuração do servidor.
+
+**JavaScript · HTML · CSS · Node.js · Web Speech API · localStorage**  
+[Conhecer o projeto e as telas](applications/speakai/) · [Código privado](https://github.com/matosluan93/speakai-projeto)
+
+### Outras aplicações
+
+| Projeto | O que demonstra | Explore |
+| :--- | :--- | :--- |
+| **BenefProcess** | Automação de bases, validação e exportação de relatórios com Python, Flask e pandas | [Estudo e telas](applications/benefprocess/) |
+| **Stefanini Shopping** | E-commerce responsivo, catálogo, variantes e internacionalização com Next.js e TypeScript | [Estudo e telas](applications/stefanini-shopping/) |
+| **NF-e — Automação** | Cadastro, persistência em SQLite e pré-visualização em um protótipo Flask | [Estudo e telas](applications/nfe-automation/) |
 
 ## 02 · Prompts de IA
 

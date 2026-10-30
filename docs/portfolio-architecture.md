@@ -4,6 +4,7 @@ O repositório central apresenta o trabalho em duas áreas. O código das aplica
 
 ```text
 applications/       estudos técnicos e demonstrações de aplicações
+  edital-profiler/   editais, recuperação de contexto e organização documental
   talenthub/        recrutamento, perfis de acesso e recuperação de contexto
   benefprocess/     automação de bases de benefícios
   speakai/          aprendizagem de idiomas

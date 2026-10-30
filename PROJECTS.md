@@ -4,6 +4,7 @@
 
 | Projeto | Evidência disponível | Escopo atual |
 | :--- | :--- | :--- |
+| [Edital Profiler v3](applications/edital-profiler/) | Código privado, suíte local e interface | Processamento de editais, recuperação de contexto e organização documental; portais com mapeamento pendente |
 | [TalentHub v2](applications/talenthub/) | Código privado, testes automatizados locais e interface de demonstração | CRUD, perfis, indicadores e recuperação de contexto; integrações corporativas sem homologação nesta sessão |
 | [BenefProcess](applications/benefprocess/) | Código público e capturas reais | Processamento e validação de bases de benefícios |
 | [SpeakAI](applications/speakai/) | Código privado, build local e capturas reais | Front-end de aprendizagem de idiomas; conversação com provedor não validada nesta sessão |
