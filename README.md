@@ -39,6 +39,13 @@ Aplicação web de estudo em oito idiomas, com jornada geral, trilha executiva, 
 **JavaScript · HTML · CSS · Node.js · Web Speech API · localStorage**  
 [Conhecer o projeto e as telas](applications/speakai/) · [Código privado](https://github.com/matosluan93/speakai-projeto)
 
+### 4. Atlas Naval · História naval interativa
+
+Aplicação educacional com globo 3D, catálogo de batalhas de fontes públicas e 19 estudos completos. Reúne animações táticas por fases, fichas históricas, lições, o papel dos fuzileiros, quizzes e modo treino.
+
+**JavaScript · HTML · CSS · CesiumJS · Node.js · Vercel**  
+[Conhecer o projeto](applications/atlas-naval/) · [Código público](https://github.com/matosluan93/atlas-naval) · [Abrir aplicação](https://carta-de-combate-naval.vercel.app)
+
 ### Outras aplicações
 
 | Projeto | O que demonstra | Explore |

@@ -1,12 +1,12 @@
 # Status e evidências
 
-Atualizado em **29 de outubro de 2026**.
+Atualizado em **2 de novembro de 2026**.
 
 ## Organização
 
 | Área | Conteúdo |
 | :--- | :--- |
-| [Aplicações](applications/) | Seis projetos com páginas técnicas e demonstrações visuais |
+| [Aplicações](applications/) | Sete projetos com páginas técnicas; seis com demonstrações visuais |
 | [Prompts de IA](prompts/) | Seis projetos de engenharia de prompts |
 | Links anteriores | Atalhos preservados em `agents/` |
 
@@ -15,6 +15,7 @@ Atualizado em **29 de outubro de 2026**.
 1. [Edital Profiler v3](applications/edital-profiler/)
 2. [TalentHub v2](applications/talenthub/)
 3. [SpeakAI](applications/speakai/)
+4. [Atlas Naval](applications/atlas-naval/)
 
 ## Validação observada
 
@@ -22,6 +23,7 @@ Atualizado em **29 de outubro de 2026**.
 - **TalentHub v2:** 11 testes automatizados passaram em execução local com Python 3.12, em 29/10/2026. A suíte usa dados de exemplo e banco SQLite em memória.
 - **SpeakAI:** build local concluído e interface conferida no navegador; provedor de IA não validado nesta sessão.
 - **BenefProcess, NF-e e Stefanini Shopping:** capturas reais de execução local publicadas nas páginas dos projetos.
+- **Atlas Naval:** código público; sintaxe JavaScript, arquivos JSON e estrutura dos 19 estudos (IDs, coordenadas, fases e respostas dos quizzes) verificados em 02/11/2026. Capturas de tela e validação da interação visual pendentes.
 - **Prompts:** versões públicas documentadas; avaliações sistemáticas de eficácia não executadas nesta atualização.
 
 Os repositórios privados mantêm essa visibilidade. O portfólio público apresenta estudos técnicos e demonstrações com dados de exemplo.

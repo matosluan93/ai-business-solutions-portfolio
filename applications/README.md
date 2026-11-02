@@ -8,6 +8,8 @@
 | **[TalentHub v2](talenthub/)** | Centralização de vagas, candidatos e indicadores por perfil | Interface de demonstração e 11 testes locais aprovados | [Privado](https://github.com/matosluan93/talenthub) |
 | **[SpeakAI](speakai/)** | Jornada de aprendizagem de idiomas e contextos profissionais | Build e capturas reais do front-end | [Privado](https://github.com/matosluan93/speakai-projeto) |
 
+| **[Atlas Naval](atlas-naval/)** | Estudo de história naval com exploração geográfica e revisão interativa | Código público, documentação e verificações dos 19 estudos completos | [Público](https://github.com/matosluan93/atlas-naval) |
+
 ## Outras aplicações
 
 | Projeto | Área | Evidências | Código |

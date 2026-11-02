@@ -11,6 +11,8 @@
 | [Stefanini Shopping](applications/stefanini-shopping/) | Estudo público sanitizado e capturas | Front-end com catálogo local; integrações produtivas pendentes |
 | [NF-e — Automação](applications/nfe-automation/) | Código público e capturas locais | Protótipo de controle interno; sem emissão fiscal oficial |
 
+| [Atlas Naval](applications/atlas-naval/) | Código público, documentação e verificações de sintaxe e estrutura | Globo 3D, 19 estudos completos, animações táticas, quizzes e treino; total do catálogo depende das fontes |
+
 ## Prompts de IA
 
 | Projeto | Evidência disponível | Escopo atual |
