@@ -10,6 +10,7 @@ applications/       estudos técnicos e demonstrações de aplicações
   speakai/          aprendizagem de idiomas
   stefanini-shopping/  front-end de e-commerce
   nfe-automation/   protótipo de controle interno
+  atlas-naval/      história naval, globo 3D, animações e quizzes
 prompts/            biblioteca de projetos de engenharia de prompts
 docs/               documentação transversal
 agents/             atalhos para links da organização anterior

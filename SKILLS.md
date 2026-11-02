@@ -1,6 +1,6 @@
 # Ferramentas, tecnologias e conhecimentos
 
-Inventário baseado no código, nas dependências e nos materiais dos seis projetos de aplicação e dos seis projetos de prompts. As páginas de cada projeto indicam o estágio de implementação e a validação observada.
+Inventário baseado no código, nas dependências e nos materiais dos sete projetos de aplicação e dos seis projetos de prompts. As páginas de cada projeto indicam o estágio de implementação e a validação observada.
 
 ## Por projeto
 
@@ -13,11 +13,13 @@ Inventário baseado no código, nas dependências e nos materiais dos seis proje
 | [Stefanini Shopping](applications/stefanini-shopping/) | Next.js, React, TypeScript, Tailwind CSS, Lucide React | Interface responsiva, catálogo, variantes, carrinho, UX e internacionalização |
 | [NF-e — Automação](applications/nfe-automation/) | Python, Flask, SQLite, HTML, CSS, JavaScript | Persistência local, cadastro, consulta, painel e pré-visualização de documentos |
 
+| [Atlas Naval](applications/atlas-naval/) | JavaScript, HTML, CSS, CesiumJS, Node.js, Vercel Functions, SheetJS | Visualização geográfica 3D, animações táticas, quizzes, coleta de fontes públicas, normalização, deduplicação e cache |
+
 ## Linguagens e desenvolvimento
 
 - **Linguagens:** Python, JavaScript e TypeScript; HTML e CSS para estrutura e apresentação.
-- **Backend:** Flask, Flask-SQLAlchemy, SQLite, APIs REST, requests, python-dotenv e Waitress.
-- **Front-end:** React, Next.js, Tailwind CSS, Lucide React, JSON local e recursos nativos do navegador.
+- **Backend:** Node.js, funções serverless na Vercel, Flask, Flask-SQLAlchemy, SQLite, APIs REST, requests, python-dotenv e Waitress.
+- **Front-end:** CesiumJS, React, Next.js, Tailwind CSS, Lucide React, JSON local e recursos nativos do navegador.
 - **Estado e experiência:** localStorage, Web Speech API, temas, responsividade e internacionalização.
 
 ## Dados e documentos
@@ -45,6 +47,8 @@ Inventário baseado no código, nas dependências e nos materiais dos seis proje
 | Supabase: supabase-js e SSR | Stefanini Shopping | Clientes e estruturas presentes; execução demonstrada com catálogo local |
 | Bling / OAuth e REST | NF-e — Automação | Módulo presente no código; demonstração sem conexão com o serviço |
 | Vercel / função Node.js | SpeakAI | Configuração e endpoint presentes; build local verificado |
+
+| CesiumJS, Esri e fontes históricas públicas | Atlas Naval | Globo e coletor implementados; sintaxe e estrutura dos 19 estudos verificadas; interação visual e disponibilidade das fontes não validadas nesta atualização |
 
 ## Projetos de prompts e conhecimentos de negócio
 
