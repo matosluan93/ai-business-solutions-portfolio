@@ -1,4 +1,4 @@
-# TalentHub v2 · Plataforma de recrutamento
+# TalentHub · Plataforma de recrutamento
 
 Protótipo de aplicação web para organizar vagas, candidatos e indicadores em três perfis: recrutador, gestor e diretor.
 

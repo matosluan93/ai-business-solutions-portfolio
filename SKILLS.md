@@ -6,8 +6,8 @@ Inventário baseado no código, nas dependências e nos materiais dos sete proje
 
 | Projeto | Stack principal | Conhecimentos demonstrados |
 | :--- | :--- | :--- |
-| [Edital Profiler v3](applications/edital-profiler/) | Python, Flask, SQLAlchemy, SQLite, NumPy, Playwright, MSAL | Processamento documental, recuperação de contexto, critérios de comparação, organização de arquivos e automação em etapas |
-| [TalentHub v2](applications/talenthub/) | Python, Flask, SQLAlchemy, SQLite, MSAL, NumPy | API REST, CRUD, sessões, CSRF, permissões por perfil, indicadores e recuperação com fontes |
+| [Edital Profiler](applications/edital-profiler/) | Python, Flask, SQLAlchemy, SQLite, NumPy, Playwright, MSAL | Processamento documental, recuperação de contexto, critérios de comparação, organização de arquivos e automação em etapas |
+| [TalentHub](applications/talenthub/) | Python, Flask, SQLAlchemy, SQLite, MSAL, NumPy | API REST, CRUD, sessões, CSRF, permissões por perfil, indicadores e recuperação com fontes |
 | [SpeakAI](applications/speakai/) | JavaScript, HTML, CSS, Node.js, Web Speech API, localStorage | Jornada de aprendizagem, gamificação, estado no navegador, internacionalização e endpoint de conversação |
 | [BenefProcess](applications/benefprocess/) | Python, Flask, pandas, openpyxl, xlsxwriter, python-pptx | Validação, deduplicação, rastreabilidade, regras de transformação e geração de entregáveis |
 | [Stefanini Shopping](applications/stefanini-shopping/) | Next.js, React, TypeScript, Tailwind CSS, Lucide React | Interface responsiva, catálogo, variantes, carrinho, UX e internacionalização |

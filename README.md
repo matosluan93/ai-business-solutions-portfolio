@@ -18,14 +18,14 @@ Aplicações web, automação de dados e engenharia de prompts para problemas de
 
 ## 01 · Aplicações — projetos principais
 
-### 1. Edital Profiler v3 · Editais e organização documental
+### 1. Edital Profiler · Editais e organização documental
 
 Aplicação para estruturar perfis de um edital, recuperar informações de documentos e organizar o acompanhamento de profissionais e arquivos. Combina processamento de PDF/Word, busca local e geração de planilhas; as integrações corporativas têm seu estágio documentado.
 
 **Python · Flask · SQLAlchemy · SQLite · NumPy · Playwright · Microsoft Graph**  
 [Conhecer o projeto e as telas](applications/edital-profiler/) · [Código privado](https://github.com/matosluan93/edital-profiler)
 
-### 2. TalentHub v2 · Recrutamento e gestão
+### 2. TalentHub · Recrutamento e gestão
 
 Plataforma com vagas, candidatos, pipeline, três perfis de acesso e indicadores de equipe. Inclui recuperação de contexto, fontes e **11 testes automatizados aprovados** em ambiente local.
 

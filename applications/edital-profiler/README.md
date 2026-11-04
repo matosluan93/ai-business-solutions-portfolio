@@ -1,4 +1,4 @@
-# Edital Profiler v3 · Editais e organização documental
+# Edital Profiler · Editais e organização documental
 
 Aplicação web para estruturar os perfis de um edital, pesquisar informações em documentos e acompanhar a organização de profissionais e arquivos por processo.
 

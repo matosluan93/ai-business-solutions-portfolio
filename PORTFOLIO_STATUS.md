@@ -15,15 +15,15 @@ Atualizado em **2 de novembro de 2026**.
 
 ## Projetos principais
 
-1. [Edital Profiler v3](applications/edital-profiler/)
-2. [TalentHub v2](applications/talenthub/)
+1. [Edital Profiler](applications/edital-profiler/)
+2. [TalentHub](applications/talenthub/)
 3. [SpeakAI](applications/speakai/)
 4. [Atlas Naval](applications/atlas-naval/)
 
 ## Validação observada
 
-- **Edital Profiler v3:** **3 testes automatizados aprovados** com pytest em ambiente local (6,34 s). A suíte verifica regras básicas, o fluxo completo com documentos de teste e o cofre em memória. Microsoft Graph, Groq e portais corporativos não foram acionados nesta validação.
-- **TalentHub v2:** 11 testes automatizados passaram em execução local com Python 3.12, em 29/10/2026. A suíte usa dados de exemplo e banco SQLite em memória.
+- **Edital Profiler:** **3 testes automatizados aprovados** com pytest em ambiente local (6,34 s). A suíte verifica regras básicas, o fluxo completo com documentos de teste e o cofre em memória. Microsoft Graph, Groq e portais corporativos não foram acionados nesta validação.
+- **TalentHub:** 11 testes automatizados passaram em execução local com Python 3.12, em 29/10/2026. A suíte usa dados de exemplo e banco SQLite em memória.
 - **SpeakAI:** build local concluído e interface conferida no navegador; provedor de IA não validado nesta sessão.
 - **BenefProcess, NF-e e Stefanini Shopping:** capturas reais de execução local publicadas nas páginas dos projetos.
 - **Atlas Naval:** código público; sintaxe JavaScript, arquivos JSON e estrutura dos 19 estudos (IDs, coordenadas, fases e respostas dos quizzes) verificados em 02/11/2026. Capturas de tela e validação da interação visual pendentes.
