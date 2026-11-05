@@ -53,6 +53,19 @@ Estruturar uma experiência de compra mais profissional, responsiva e coerente c
 - Organização de ativos visuais e proteção de arquivos de ambiente.
 - Documentação clara de escopo, limitações e integrações planejadas.
 
+## Evidência de testes
+
+Em **5 de novembro de 2026**, a verificação estática de TypeScript passou para o código-fonte. O protótipo também foi exercitado no Chromium com Playwright, usando o catálogo local.
+
+| Verificação | Resultado |
+| :--- | :--- |
+| Catálogo e busca | **33 produtos** carregados. Uma consulta sem correspondência exibiu o estado vazio e limpar os filtros restaurou a lista. |
+| Carrinho e persistência | O produto adicionado apareceu na página do carrinho. A alteração para duas unidades persistiu após recarregar. |
+| Contador no cabeçalho | **Falha reproduzida.** O cabeçalho continuou exibindo zero após adicionar um item pelo catálogo. |
+| Erros na página | O navegador reportou uma exceção genérica (`Event`) durante o roteiro. A origem ficou em aberto. |
+
+A rodada cobre o catálogo e o carrinho locais. Checkout, pagamento, autenticação corporativa e persistência no backend ficaram fora da execução.
+
 ## Limitações e próximos passos
 
 O fluxo atual não comprova operação produtiva de pagamento, cálculo e contratação de frete, autenticação corporativa pelo Microsoft Entra ID, persistência em backend corporativo, baixa real de estoque, envio de e-mails ou emissão fiscal por TOTVS/SEFAZ. Essas capacidades permanecem como integrações planejadas e dependem de arquitetura, credenciais, homologação, segurança e aprovação da empresa.

@@ -29,9 +29,15 @@ Interface em execução local, com armazenamento isolado e sem conexão com port
 
 ![Interface local do Edital Profiler](01-visao-geral.jpg)
 
-## Validação
+## Evidência de testes
 
-**3 testes automatizados aprovados** com pytest em ambiente local (6,34 s). A suíte verifica regras básicas, o fluxo completo com documentos de teste e o cofre em memória. Microsoft Graph, Groq e portais corporativos não foram acionados nesta validação.
+Em **5 de novembro de 2026**, a suíte local do projeto registrou **3 testes aprovados** com `python -m pytest -q`. A execução usou Python, banco de teste, documentos gerados pela suíte e um cofre em memória.
+
+- **Regras de documentos:** classificação de arquivos, normalização de nomes e identificação de senioridade.
+- **Fluxo local:** indexação, leitura do edital, seleção por perfil, organização de arquivos, planilha de controle e registro de pendências.
+- **Cofre de credenciais:** gravação, recuperação, exclusão e verificação de que a consulta de status omite a senha.
+
+O fluxo verificado usa armazenamento local. Microsoft Graph, Groq e os portais corporativos ficaram fora desta execução.
 
 ## Estágio das integrações
 

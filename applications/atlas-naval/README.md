@@ -25,13 +25,15 @@ O navegador reúne os estudos incluídos no código com o catálogo servido por 
 
 O globo funciona sem token do Cesium ion; o relevo 3D é opcional. A execução completa da API usa funções da Vercel, enquanto o front-end não exige compilação.
 
-## Evidências e estágio
+## Evidência de testes
 
-- Repositório público com o código e instruções de execução.
-- Verificação de sintaxe dos arquivos JavaScript e leitura dos arquivos JSON.
-- Conferência dos 19 estudos: identificadores únicos, coordenadas, fases e índices das respostas dos quizzes.
-- Verificações realizadas em **2 de novembro de 2026**; não equivalem a testes completos da API e da interface.
-- Capturas de tela e validação da interação visual pendentes nesta atualização.
+Em **5 de novembro de 2026**, as verificações locais em Node.js confirmaram:
+
+- Sintaxe de **6 scripts JavaScript** e leitura de **4 arquivos JSON**.
+- **19 estudos** com identificadores únicos, coordenadas válidas, fases descritas, trajetórias e índices de respostas dos quizzes dentro das opções disponíveis.
+- A rota `/api/batalhas` retornou **HTTP 200 e 48 registros locais** quando a rede externa foi simulada como indisponível. O modo de diagnóstico registrou a indisponibilidade da Wikidata e usou cabeçalho `no-store`.
+
+O teste da rota foi feito com respostas externas simuladas como indisponíveis. A renderização do globo e a coleta real das fontes ficaram fora da execução.
 
 ## Explorar
 

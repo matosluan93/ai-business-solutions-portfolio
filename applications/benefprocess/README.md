@@ -26,6 +26,16 @@ Capturas reais da aplicação em execução local, em 29/10/2026, sem carregar b
 
 Python, Flask, pandas, openpyxl, xlsxwriter, python-pptx e lxml.
 
+## Evidência de testes
+
+Em **5 de novembro de 2026**, o cliente de testes do Flask executou o fluxo de benefícios com um XLSX sintético em pasta temporária.
+
+- A página inicial respondeu com HTTP 200. Upload sem arquivo ou com extensão inválida retornou HTTP 400.
+- A aplicação importou o XLSX, identificou a aba e mapeou a coluna de sindicato.
+- Dos **2 registros fictícios**, **1 elegível** apareceu no XLSX e no CSV de saída e **1 PJ** apareceu na planilha de auditoria.
+
+A cobertura desta rodada é do fluxo de elegibilidade e auditoria testado. Os demais fluxos e bases reais ficaram fora da execução.
+
 ## Privacidade
 
 Bases reais, arquivos enviados e saídas geradas permanecem fora do Git. A pasta temporária foi removida do repositório local e preservada em backup privado.
