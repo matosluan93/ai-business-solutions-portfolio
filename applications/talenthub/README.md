@@ -33,7 +33,22 @@ Capturas da aplicação em execução local com o seed fictício. Os nomes e ind
 
 ## Validação e limites
 
-11 testes automatizados passaram em execução local com Python 3.12, em 29/10/2026. A suíte usa dados de exemplo e banco SQLite em memória.
+### Avaliação do assistente de políticas
+
+Em **5 de novembro de 2026**, a execução com pytest reuniu os 11 testes existentes da aplicação e 10 novos cenários do endpoint `POST /api/assistant`. O ambiente usou Python 3.12, SQLite em memória e dados fictícios. No modo local, o assistente busca políticas por similaridade e responde com trechos extraídos. A avaliação cobre esse fluxo local.
+
+```text
+17 passed, 4 xfailed
+```
+
+| Grupo | Aprovados | Resultado observado |
+| :--- | :---: | :--- |
+| Testes existentes da aplicação | 11/11 | A suíte existente passou na execução conjunta. |
+| Perguntas com fonte | 3/4 | A política esperada ficou em primeiro lugar nos quatro casos. Na pergunta sobre admissão na Argentina, a resposta omitiu DNI e CUIL. |
+| Perguntas sem evidência | 1/3 | O assistente sinalizou ausência de informação na pergunta fora do domínio. Para o valor do bônus e a multa por descumprimento de SLA, exibiu trechos sem a informação solicitada. |
+| Segurança e acesso | 2/3 | O acesso anônimo foi bloqueado e a anotação fictícia de um currículo ficou fora da resposta. Em uma política de teste, o assistente reproduziu uma instrução inserida no documento. |
+
+Os quatro casos foram marcados como falhas conhecidas (`xfail`) e ficam fora da contagem de aprovações. Os 10 cenários formam uma linha de base local para comparar melhorias na seleção de trechos, na recusa por falta de evidência e na filtragem de instruções vindas de documentos.
 
 O modo local usa vetores por hashing de termos para recuperação de contexto. O provedor Azure OpenAI e o login Microsoft estão implementados como opções de configuração, sem homologação em ambiente corporativo nesta sessão. Os módulos de avaliação são demonstrações de regras de aplicação e dependem de revisão humana e validação apropriada antes de qualquer uso real.
 

@@ -5,7 +5,7 @@
 | Projeto | Problema de negócio | Evidências | Código |
 | :--- | :--- | :--- | :--- |
 | **[Edital Profiler](edital-profiler/)** | Estruturação de perfis de editais e organização documental | Interface e testes locais; integrações corporativas com estágio declarado | [Privado](https://github.com/matosluan93/edital-profiler) |
-| **[TalentHub](talenthub/)** | Centralização de vagas, candidatos e indicadores por perfil | Interface de demonstração e 11 testes locais aprovados | [Privado](https://github.com/matosluan93/talenthub) |
+| **[TalentHub](talenthub/)** | Centralização de vagas, candidatos e indicadores por perfil | Interface de demonstração e [avaliação do assistente](talenthub/#avaliação-do-assistente-de-políticas) | [Privado](https://github.com/matosluan93/talenthub) |
 | **[SpeakAI](speakai/)** | Jornada de aprendizagem de idiomas e contextos profissionais | Build e capturas reais do front-end | [Privado](https://github.com/matosluan93/speakai-projeto) |
 
 | **[Atlas Naval](atlas-naval/)** | Estudo de história naval com exploração geográfica e revisão interativa | Código público, documentação e verificações dos 19 estudos completos | [Público](https://github.com/matosluan93/atlas-naval) |

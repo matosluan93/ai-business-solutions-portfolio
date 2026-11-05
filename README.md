@@ -27,10 +27,10 @@ Aplicação para estruturar perfis de um edital, recuperar informações de docu
 
 ### 2. TalentHub · Recrutamento e gestão
 
-Plataforma com vagas, candidatos, pipeline, três perfis de acesso e indicadores de equipe. Inclui recuperação de contexto, fontes e **11 testes automatizados aprovados** em ambiente local.
+Plataforma com vagas, candidatos, pipeline, três perfis de acesso e indicadores de equipe. Inclui recuperação de contexto com fontes e uma avaliação local do assistente de políticas.
 
 **Python · Flask · SQLAlchemy · SQLite · MSAL · NumPy**  
-[Conhecer o projeto e as telas](applications/talenthub/) · [Código privado](https://github.com/matosluan93/talenthub)
+[Conhecer o projeto e as telas](applications/talenthub/) · [Resultados dos testes](applications/talenthub/#avaliação-do-assistente-de-políticas) · [Código privado](https://github.com/matosluan93/talenthub)
 
 ### 3. SpeakAI · Aprendizagem de idiomas
 
